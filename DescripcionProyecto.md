@@ -9,14 +9,14 @@
 - **Casos de uso:** Apoyo para compositores (de todo nivel de experiencia), a crear versiones de una pieza musical en diferentes géneros, o para productores que buscan una solución rápida para adaptar música a distintos estilos.
 
 ## Objetivos del Proyecto
-- **Objetivo 1:**Crear un analizador léxico y sintáctico capaz de interpretar código de Sonic Pi.
+- **Objetivo 1:** Crear un analizador léxico y sintáctico capaz de interpretar código de Sonic Pi.
 - **Objetivo 2:** Desarrollar un motor de transformación basado en reglas subjetivas musicales para delimitar las especificaciones de cada género.
 - **Objetivo 3:** Pruebas de validación para la música transformada (ejecutable y escuchable)
 - **Objetivo 4:** Ejecución de la música transformada
 
 ## Revisión del Estado del Arte
 - **Compiladores similares:** En base a investigaciones previas, podemos identificar herramientas para la creación algorítmica de música, y no tanta competencia en la transformación de música.
-- **Limitaciones de soluciones actuales:**Muchas soluciones actuales para producción de musica enfatizan la creación en base a patrones en vez de una transformación de género musical. Esto se debe ya que una transformacion es una herramientas mas de nicho.
+- **Limitaciones de soluciones actuales:** Muchas soluciones actuales para producción de musica enfatizan la creación en base a patrones en vez de una transformación de género musical. Esto se debe ya que una transformacion es una herramientas mas de nicho.
 - **Justificación del nuevo compilador:** La creación de un compilador que traduzca música entre géneros llena un vacio en herramientas disponibles para producción musical en Sonic Pi.
 
 ## Arquitectura y Diseño del Compilador
@@ -28,8 +28,8 @@
 - **Análisis léxico:** 
   - El analizador lexico identificará tokens clave así como operadores específicos de Sonic Pi. 
 - **Ejemplos:**
-  Notas: C4, G5, D3
-  Operadores: Play, Pause, Live_loop
+  - Notas: C4, G5, D3
+  - Operadores: Play, Pause, Live_loop
 
 ## Análisis Sintáctico
 
