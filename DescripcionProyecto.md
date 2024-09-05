@@ -52,8 +52,8 @@
 - **Casos de prueba específicos:**
 
 ## Herramientas y Entorno de Desarrollo
-- **Lenguajes de programación utilizados:**
-- **Herramientas de desarrollo:**
+- **Lenguajes de programación utilizados:** C
+- **Herramientas de desarrollo:** Visual Studio Code & Sonic Pi
 - **Entorno de pruebas y simulación:**
 
 ## Demostración
