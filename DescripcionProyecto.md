@@ -34,22 +34,22 @@
 ## Análisis Sintáctico
 
 - **Análisis sintáctico:** 
-  - Uso de gramáticas y árboles sintácticos.
+  - TBD
 
-- **Ejemplos:**
+- **Ejemplos:** TBD
 
 ## Análisis Semántico
 
 - **Análisis sintáctico:** 
-  - Uso de gramáticas y árboles sintácticos.
+  - TBD
 
-- **Ejemplos:**
+- **Ejemplos:** TBD
 
 ## Pruebas y Validación
 
-- **Metodología de pruebas:**
-- **Resultados obtenidos:**
-- **Casos de prueba específicos:**
+- **Metodología de pruebas:** TBD
+- **Resultados obtenidos:** TBD
+- **Casos de prueba específicos:** TBD
 
 ## Herramientas y Entorno de Desarrollo
 - **Lenguajes de programación utilizados:** C
@@ -57,19 +57,19 @@
 - **Entorno de pruebas y simulación:**
 
 ## Demostración
-- **Ejemplo de código fuente:**
-- **Proceso de compilación:**
-- **Ejecución del código compilado:**
+- **Ejemplo de código fuente:** TBD
+- **Proceso de compilación:** TBD
+- **Ejecución del código compilado:** TBD
 
 ## Desafíos y Soluciones
 - **Problemas técnicos o de diseño:** Definir reglas claras y objetivas para la transformación entre géneros fue un desafío, dado que la música tiene elementos subjetivos.
-- **Estrategias adoptadas para superar desafíos:**
-- **Lecciones aprendidas:**
+- **Estrategias adoptadas para superar desafíos:** TBD
+- **Lecciones aprendidas:** TBD
 
 ## Conclusiones y Trabajo Futuro
-- **Resumen de objetivos cumplidos:**
-- **Evaluación del desempeño:**
-- **Propuestas para mejoras futuras:**
+- **Resumen de objetivos cumplidos:** TBD
+- **Evaluación del desempeño:** TBD
+- **Propuestas para mejoras futuras:** TBD
 
 ## Preguntas y Discusión
 - Espacio para responder preguntas y discusión sobre el proyecto.
