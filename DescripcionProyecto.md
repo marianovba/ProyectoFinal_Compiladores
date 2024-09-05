@@ -29,7 +29,8 @@
   - El analizador lexico identificará tokens clave así como operadores específicos de Sonic Pi. 
 - **Ejemplos:**
   - Notas: C4, G5, D3
-  - Operadores: Play, Pause, Live_loop
+  - Keywords: Play, Pause, Live_loop
+  - Operadores: :, (, ), 
 
 ## Análisis Sintáctico
 
