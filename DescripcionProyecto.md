@@ -20,7 +20,7 @@
 - **Justificación del nuevo compilador:** La creación de un compilador que traduzca música entre géneros llena un vacio en herramientas disponibles para producción musical en Sonic Pi.
 
 ## Arquitectura y Diseño del Compilador
-- **Diagrama de bloques:**
+- **Diagrama de bloques:** 
 - **Explicación del flujo de datos:**
 - **Decisiones de diseño:**
 
@@ -28,9 +28,29 @@
 - **Análisis léxico:** 
   - El analizador lexico identificará tokens clave así como operadores específicos de Sonic Pi. 
 - **Ejemplos:**
-  - Notas: C4, G5, D3
-  - Keywords: Play, Pause, Live_loop
-  - Operadores: :, (, ), 
+  - Notas: 
+    - C4, G5, D3
+  - Keywords:
+    - play
+    - amp:
+    - do:
+    - end
+    - loop
+    - live_loop
+    - pan:
+    - rate:
+    - sleep
+  - Operadores & Punctuation:
+    - ,
+    - ;
+    - :
+    - _
+  
+  **Automata**
+    ![Automata_Sencillo](/imgs/Prototipo%20de%20Sonic%20Pi.png)
+  
+  **Tabla de Transiciones**
+    ![Transiciones](/imgs/Tabla%20de%20Transiciones.png)
 
 ## Análisis Sintáctico
 
