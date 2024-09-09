@@ -21,6 +21,7 @@
 
 ## Arquitectura y Diseño del Compilador
 - **Diagrama de bloques:** 
+  ![Diagrama_deBloques](/imgs/DiagramaBloques_Compiladores.drawio.png)
 - **Explicación del flujo de datos:**
 - **Decisiones de diseño:**
 
