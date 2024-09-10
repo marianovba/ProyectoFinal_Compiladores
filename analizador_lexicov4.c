@@ -5,6 +5,7 @@
 
 #define NUM_STATES 46      // Estados del Automata
 #define NUM_INPUT_TYPES 22 // Columnas de tabla de transiciones
+#define MAX_FILE_SIZE 1024  // Tamaño maximo de archivo
 
 // Transiciones del Automata
 typedef struct Transition {
@@ -189,7 +190,18 @@ void lexicalAnalysis(DFA* dfa, char* input) {
 int main() {
     DFA* dfa = createDFA(); 
 
-    char input[] = "pan: 123; loop A3;";
+    FILE *file = fopen("input.txt", "r");
+    if (file == NULL) {
+        perror("Error opening file");
+        return 1;
+    }
+
+    char input[MAX_FILE_SIZE];
+    size_t bytesRead = fread(input, 1, MAX_FILE_SIZE - 1, file);
+    input[bytesRead] = '\0';  // Null-terminate the string
+
+    fclose(file);
+
     lexicalAnalysis(dfa, input);
 
     return 0;
