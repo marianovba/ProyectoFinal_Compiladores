@@ -56,7 +56,8 @@
 ## Análisis Sintáctico
   - El analizador sintactico (parser) se propone hacer un recorrido en base a la metodologia LL(1).
 - **Análisis sintáctico:** 
-  - TBD
+  - ![Codigo Compilado](/imgs/recorrido_parser1.png)
+    ![Codigo Compilado](/imgs/recorrido_parser2.png)
 
 - **Ejemplos:** TBD
 
@@ -87,8 +88,11 @@ El programa se busca validar mediante un codigo fuente consistente, el cual esta
 
 ## Demostración
 - **Ejemplo de código fuente:** 
-- **Proceso de compilación:** TBD
-- **Ejecución del código compilado:** TBD
+    ![Codigo Fuente](/imgs/codigo_fuente.png)
+- **Proceso de compilación:** 
+    ![Proceso de Compilacion de Parser](/imgs/recorrido_baseparse.png)
+- **Ejecución del código compilado:** 
+    ![Parser Ejecutado](/imgs/parser_run.png)
 
 ## Desafíos y Soluciones
 - **Problemas técnicos o de diseño:** Definir reglas claras y objetivas para la transformación entre géneros fue un desafío, dado que la música tiene elementos subjetivos.
