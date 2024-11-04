@@ -54,7 +54,7 @@
     ![Transiciones](/imgs/Tabla%20de%20Transiciones.png)
 
 ## Análisis Sintáctico
-
+  - El analizador sintactico (parser) se propone hacer un recorrido en base a la metodologia LL(1).
 - **Análisis sintáctico:** 
   - TBD
 
@@ -62,31 +62,38 @@
 
 ## Análisis Semántico
 
-- **Análisis sintáctico:** 
+- **Análisis semantico:** 
   - TBD
 
 - **Ejemplos:** TBD
 
 ## Pruebas y Validación
+El programa se busca validar mediante un codigo fuente consistente, el cual esta formado por:
 
-- **Metodología de pruebas:** TBD
-- **Resultados obtenidos:** TBD
-- **Casos de prueba específicos:** TBD
+*play :A5*
+*sample :guit_e_fifths, amp: 0.5*
+
+- **Metodología de pruebas:** 
+  - Hasta el momento presente, se han hecho pruebas por separado utilizando el lexer y parser respectivamente para asegurar una funcionalidad apropiadad de ambos siste.as
+- **Resultados obtenidos:** 
+  - JFLEX ha ayudado para generar un lexer automatico en base a estructuras de gramaticas definidas despues de varias revisiones.
+  - El Parser se ha creado 
+- **Casos de prueba específicos:** Por el momento el enfoque ha sido  exclusivo con hacer funcionar nuestros casos bases debido a dificultades en el desarrollo de los componentes lexicos y sintacticos del compilador. 
 
 ## Herramientas y Entorno de Desarrollo
-- **Lenguajes de programación utilizados:** C
-- **Herramientas de desarrollo:** Visual Studio Code & Sonic Pi
-- **Entorno de pruebas y simulación:**
+- **Lenguajes de programación utilizados:** Java
+- **Herramientas de desarrollo:** Visual Studio Code, Sonic Pi, JFlex, IntelliJ
+- **Entorno de pruebas y simulación:** IntelliJ IDE Community
 
 ## Demostración
-- **Ejemplo de código fuente:** TBD
+- **Ejemplo de código fuente:** 
 - **Proceso de compilación:** TBD
 - **Ejecución del código compilado:** TBD
 
 ## Desafíos y Soluciones
 - **Problemas técnicos o de diseño:** Definir reglas claras y objetivas para la transformación entre géneros fue un desafío, dado que la música tiene elementos subjetivos.
-- **Estrategias adoptadas para superar desafíos:** TBD
-- **Lecciones aprendidas:** TBD
+- **Estrategias adoptadas para superar desafíos:** Revisiones constantes y reevaluaciones de planteamientos al utilizar herramientas como ChatGPT para evaluar nuestros errores. Asimismo, agendar juntas con el profesor para resolver dudas mas especificas a nuestro lenguaje que se acercan mas a nuestros propios retos en comprender el comportamiento de los componentes de un compilador.
+- **Lecciones aprendidas:** Tomar con tiempo el desarrollo, y hacer avances graduales para evitar una acumulacion de dudas y avances por entregar hasta ultimo minuto.
 
 ## Conclusiones y Trabajo Futuro
 - **Resumen de objetivos cumplidos:** TBD
